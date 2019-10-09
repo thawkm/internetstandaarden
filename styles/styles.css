@@ -1,0 +1,41 @@
+body {
+    font-family:Helvetica;
+    font-size:1.5em;
+    margin:0;
+  }
+  /* header */
+  header {
+    background-color: purple;
+  }
+  
+  header h1 {
+    color:#fff;
+    margin:0;
+    padding:1rem;
+  }
+  /* nav */
+  nav {
+    background-color: green;
+    /*padding:1rem;*/
+  }
+  
+  nav ul {
+    background-color: turquoise;
+    list-style:none;
+    padding:0;
+    display:flex;
+    justify-content:flex-end;
+    /*flex-direction:column*/
+  }
+  
+  nav ul li {
+    background-color:maroon;
+    margin:0.5em;
+    padding:0.25em 0.5em;
+    
+  }
+  
+  nav ul li a {
+    font-family:new times roman;
+    color:#fff
+  }
