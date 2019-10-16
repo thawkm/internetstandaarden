@@ -23,17 +23,24 @@ h1 {
     justify-content: center;
     /*flex-direction:column*/
   }
-  
+
   nav ul li {
     background-color:maroon;
     margin:0.5em;
     padding:0.25em 0.5em;
-    
+
   }
-  
+
   nav ul li a {
-      text-align: center;
+    text-align: center;
     font-display: none;
     font-family:'Helvetica';
+    text-decoration: none;
     color:#fff;
+  }
+
+  /* body */
+
+  p{
+    font-size: 1em;
   }
